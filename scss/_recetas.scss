@@ -1,0 +1,21 @@
+@import "vars";
+
+.row{
+    margin-top: 1rem;
+    .imagen__receta{
+        border-radius: 5%;
+        width: 240px;
+    }
+    .titulo__receta{
+        font-family: "Portada-Extrabold" ;
+        color: #f29ea0;
+    }
+    .ingredientes{
+        font-size: 1rem;
+        font-family: 'Portada-Regular';
+    }
+    .pasos{
+        font-size: 1rem;
+        font-family: 'Portada-Regular';
+    }
+}

@@ -1,0 +1,35 @@
+@media only screen and (max-width: 480px) {
+    .mapa{
+        width: 100%;
+    }
+    .formulario{
+        width: 100%;
+    }
+    .menu__boton{
+        margin-left: 70px;
+    }
+    .formas__pago img{
+        margin-left: 5px
+    }
+    .menu__titulo--centrado{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:480px) and (max-width: 768px){
+    .menu__boton{
+        margin-left: 85px;
+    }
+    .formas__pago img{
+        margin-left: 1rem;
+    }
+    .menu__titulo--centrado{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1024px) {
+    .mapa{
+        width: 240px;
+    }
+}

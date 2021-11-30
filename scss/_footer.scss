@@ -1,0 +1,52 @@
+@import "vars";
+
+footer {
+    background-color: $color-fondo;
+
+    .menu__titulo--centrado {
+        font-size: $tamano-letra + 0.5;
+        color: $color-texto;
+    }
+
+    .lista {
+        .lista__item {
+            margin-top: 1rem;
+            list-style: none;
+            .lista__link {
+                text-decoration: none;
+                color: $color-texto;
+                &:hover {
+                    color: gray;
+                }
+            }
+        }
+    }
+
+    .menu__boton {
+        font-size: $tamano-letra + 1;
+        margin-left: 2.7rem;
+        color: $color-texto;
+        &:hover {
+            color: gray;
+        }
+    }
+
+    .formas__pago img {
+        width: 60px;
+        margin-bottom: 1rem;
+    }
+
+    .copyright {
+        background-color: $color-fondo;
+        display: flex;
+        justify-content: flex-end;
+        .copyright__parrafo {
+            color: $color-texto;
+            padding-top: 5px;
+            margin: 10px 10px 20px 0px;
+            .copyright__parrafo--link {
+                color: $color-texto;
+            }
+        }
+    }
+}

@@ -1,0 +1,63 @@
+@import "vars";
+
+
+.contacto{
+    margin-top: 2rem;
+    display: grid;
+    justify-content: center;
+    h2{
+        color: gray;
+    }
+    .redes{
+        font-size: $tamano-letra;
+        color: #31384a;
+        margin-bottom: $tamano-letra;
+        text-decoration: none;
+        .icono{
+            margin-left: 0.5rem;
+            font-size: 2rem;
+            color: #31384a;
+            justify-content: center;
+        }
+    }
+    
+}
+
+
+form{
+    font-family: monospace;
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    border-radius: 7px;
+    .titulo__formulario{
+        font-family: monospace;
+        color:#fff ;
+        text-align: center;
+        margin: 0;
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+    input,textarea{
+        width: 100%;
+        margin-bottom: 1rem;
+        padding: 7px;
+        box-sizing: border-box;
+        font-size: $tamano-letra;
+        border: none;
+    }
+    textarea{
+        min-height: 100px;
+        max-height: 200px;
+        max-width: 100%;
+    }
+    .boton{
+        background-color: #31384a;
+        color: #fff;
+        padding: 20px;
+    }
+}

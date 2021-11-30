@@ -1,0 +1,30 @@
+@import "vars";
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    header {
+        background-image: url(../images/banner.jpg) ;
+        height: 83vh;
+        .navbar{
+            background-color: rgba( 94, 94, 94, .6) !important;
+            .navbar-brand{
+                font-family: $font;
+                color: $color-texto !important;
+                .logo__camiSweets{
+                    width: 150px;
+                }   
+            }
+            .nav-item a{
+                color: $color-texto !important;
+            }
+        }       
+    }   
+    
+}
+
